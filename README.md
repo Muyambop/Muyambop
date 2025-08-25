@@ -1,12 +1,15 @@
 <h1>Hi, I'm Precious! </h1>
 
-<h2>👨‍💻 Network Designs and Automation Projects:</h2>
+<h2>👨‍💻 Network Design Projects:</h2>
 
-- <b>Network Designs</b>
+<h2>Bank Network Design</h2>
   - [Network Design for a Bank](https://github.com/joshmadakor1/Algorithms-Practice)
 
-
-- <b>Network Automation</b>
+<p align="center">
+Bank Network Topology: <br/>
+<img src="https://imgur.com/AIVf9Mu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<h2>👨‍💻 Network Automation Projects:</h2>
   - [Creating a comprehensive data processing tool](https://github.com/user-attachments/assets/e0bf88a7-6037-4449-ba27-853b51da7353)
   - [Build an automated security monitoring system](https://github.com/user-attachments/assets/3cfb1d7a-92d0-4a29-8c72-bf27ad0e330a)
   - [Integrate network management suite](https://github.com/user-attachments/assets/72794482-bb85-4030-b91d-414671db3f6b)
