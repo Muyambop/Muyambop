@@ -56,6 +56,18 @@ Port Security enabled to restrict unauthorized device connections.
 
 VLAN segmentation for department-level isolation.
 
+<h2>🛠️ Key Features Implemented</h2>h2>
+
+VLANs: Segregated network for different departments.
+
+Inter-VLAN Routing: Enabled through distribution switches.
+
+Port Security: Prevents unauthorized device connections.
+
+QoS (Quality of Service): Prioritization of VoIP and online transaction traffic.
+
+Scalable Topology: Supports addition of new branches and users.
+
   <h2>Network Topology</h2>h2>
 <p align="center">
 Bank Network Topology: <br/>
