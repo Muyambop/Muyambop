@@ -2,13 +2,66 @@
 
 <h2>👨‍💻 Network Design Projects:</h2>
 
-<h2>Bank Network Design</h2>
-  - [Network Design for a Bank](https://github.com/joshmadakor1/Algorithms-Practice)
 
+<h2>Bank Network Design Project</h2>
+<h2>📝 Project Summary</h2>h2>
+
+This project involved designing a secure, scalable, and reliable network infrastructure for a banking institution. The objective was to ensure high availability of services, secure access for both internal staff and customers, and efficient traffic flow across different layers of the network. The design was modeled and tested using Cisco Packet Tracer.
+
+ <h2>🎯 Project Objectives</h2>
+
+Provide a robust and scalable network that supports banking operations.
+
+Implement network segmentation for different departments (Finance, HR, Operations, Customer Service).
+
+Ensure redundancy and resilience at the core layer for uninterrupted banking services.
+
+Apply security measures (Port Security, VLAN segmentation) to protect sensitive financial data.
+
+Optimize Quality of Service (QoS) for critical applications like online banking and VoIP services.
+
+<h2>🏛️ Network Design Principles</h2>
+
+Scalability: Designed to support future branch expansions.
+
+Redundancy: Multiple connections at the core to avoid single points of failure.
+
+Security: VLANs, access control, and port security to minimize risks.
+
+Performance: Layered design ensures optimized traffic flow.
+
+Manageability: Clear separation of roles at each layer for easier troubleshooting.
+
+<h2>🔗 Hierarchical Network Design (Three-Tier Model)</h2>
+
+<b>Core Layer</b>
+
+High-speed backbone ensuring fast and resilient data transfer.
+
+Provides redundancy and interconnectivity between distribution switches.
+
+<b>Distribution Layer</b>
+
+Implements VLAN routing and inter-VLAN communication.
+
+Enforces access policies, filters traffic, and manages QoS.
+
+Acts as a boundary between the access and core layers.
+
+<b>Access Layer</b>
+
+Provides user/device access (workstations, ATMs, IP phones, printers).
+
+Port Security enabled to restrict unauthorized device connections.
+
+VLAN segmentation for department-level isolation.
+
+  <h2>Network Topology</h2>h2>
 <p align="center">
 Bank Network Topology: <br/>
 <img src="https://imgur.com/AIVf9Mu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+  
 <h2>👨‍💻 Network Automation Projects:</h2>
   - [Creating a comprehensive data processing tool](https://github.com/user-attachments/assets/e0bf88a7-6037-4449-ba27-853b51da7353)
   - [Build an automated security monitoring system](https://github.com/user-attachments/assets/3cfb1d7a-92d0-4a29-8c72-bf27ad0e330a)
