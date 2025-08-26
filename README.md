@@ -80,7 +80,7 @@ Bank Network Topology: <br/>
   - [Integrate network management suite](https://github.com/user-attachments/assets/72794482-bb85-4030-b91d-414671db3f6b)
 <br />
 
-## 📂 SDN NOTES
+## 📂 Software-Defined Networking (SDN)  NOTES
 
 [📑 Download the Notes (PPTX)](https://files.fm/f/jzqzbxhxtp)
 
