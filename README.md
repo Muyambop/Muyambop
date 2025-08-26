@@ -87,9 +87,9 @@ _Future Network Architect | Building resilient and secure digital infrastructure
 
   
 <h2>👨‍💻 Network Automation Projects:</h2>
-  - [Creating a comprehensive data processing tool](https://github.com/user-attachments/assets/e0bf88a7-6037-4449-ba27-853b51da7353)
-  - [Build an automated security monitoring system](https://github.com/user-attachments/assets/3cfb1d7a-92d0-4a29-8c72-bf27ad0e330a)
-  - [Integrate network management suite](https://github.com/user-attachments/assets/72794482-bb85-4030-b91d-414671db3f6b)
+  - [Creating a comprehensive data processing tool]
+  - [Build an automated security monitoring system]
+  - [Integrate network management suite]
 
 
 ---
@@ -109,7 +109,7 @@ _Future Network Architect | Building resilient and secure digital infrastructure
 
 ---
 
-<h2>Certificates</h2>
+<h1>Certificates:</h1>
 
 - [Automation with Python and PowerShell for IT and Cybersecurity](https://lnkd.in/dqc8YSPW)
 - [Cloud Computing: Understanding Core Concepts](https://lnkd.in/eQwYYsGt)
