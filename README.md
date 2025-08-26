@@ -79,6 +79,11 @@ Bank Network Topology: <br/>
   - [Build an automated security monitoring system](https://github.com/user-attachments/assets/3cfb1d7a-92d0-4a29-8c72-bf27ad0e330a)
   - [Integrate network management suite](https://github.com/user-attachments/assets/72794482-bb85-4030-b91d-414671db3f6b)
 
+## 📂 Project Presentation
+
+[📑 Download the Presentation (PPTX)](./file.pptx)
+
+
 <h2>Certificates</h2>
 
 - [Automation with Python and PowerShell for IT and Cybersecurity](https://lnkd.in/dqc8YSPW)
