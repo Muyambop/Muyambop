@@ -1,4 +1,4 @@
-<img width="1627" height="350" alt="image" src="https://github.com/user-attachments/assets/be460d73-52b3-40da-8a65-6e935807367b" /><h1>Hi, I'm Precious! </h1>
+<h1>Hi, I'm Precious! </h1>
 
 <h2>👨‍💻 Network Design Projects:</h2>
 
