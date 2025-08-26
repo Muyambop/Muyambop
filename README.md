@@ -1,78 +1,90 @@
-<h1>Hi, I'm Precious! </h1>
+<img width="1627" height="350" alt="image" src="https://github.com/user-attachments/assets/be460d73-52b3-40da-8a65-6e935807367b" /><h1>Hi, I'm Precious! </h1>
 
 <h2>👨‍💻 Network Design Projects:</h2>
 
 
-<h2>Bank Network Design Project</h2>
-<h2>📝 Project Summary</h2>h2>
+# 🏦 Bank Network Design Portfolio
 
-This project involved designing a secure, scalable, and reliable network infrastructure for a banking institution. The objective was to ensure high availability of services, secure access for both internal staff and customers, and efficient traffic flow across different layers of the network. The design was modeled and tested using Cisco Packet Tracer.
+## 📌 Project Overview
+This project demonstrates a **hierarchical network design** for a banking environment, built with **redundancy, scalability, and security** in mind.  
+The design follows the **three-layer model**:
+- **Core Layer**: High-speed backbone for interconnectivity.
+- **Distribution Layer**: Policy enforcement, routing, and redundancy.
+- **Access Layer**: End-user devices, printers, phones, and wireless access.
 
- <h2>🎯 Project Objectives</h2>
+The goal is to ensure **reliable, secure, and optimized communication** across multiple departments and floors within the bank.
 
-Provide a robust and scalable network that supports banking operations.
+---
 
-Implement network segmentation for different departments (Finance, HR, Operations, Customer Service).
+## 🖼️ Network Topology
+Below is the topology diagram showing the bank’s structured network design:
 
-Ensure redundancy and resilience at the core layer for uninterrupted banking services.
-
-Apply security measures (Port Security, VLAN segmentation) to protect sensitive financial data.
-
-Optimize Quality of Service (QoS) for critical applications like online banking and VoIP services.
-
-<h2>🏛️ Network Design Principles</h2>
-
-Scalability: Designed to support future branch expansions.
-
-Redundancy: Multiple connections at the core to avoid single points of failure.
-
-Security: VLANs, access control, and port security to minimize risks.
-
-Performance: Layered design ensures optimized traffic flow.
-
-Manageability: Clear separation of roles at each layer for easier troubleshooting.
-
-<h2>🔗 Hierarchical Network Design (Three-Tier Model)</h2>
-
-<b>Core Layer</b>
-
-High-speed backbone ensuring fast and resilient data transfer.
-
-Provides redundancy and interconnectivity between distribution switches.
-
-<b>Distribution Layer</b>
-
-Implements VLAN routing and inter-VLAN communication.
-
-Enforces access policies, filters traffic, and manages QoS.
-
-Acts as a boundary between the access and core layers.
-
-<b>Access Layer</b>
-
-Provides user/device access (workstations, ATMs, IP phones, printers).
-
-Port Security enabled to restrict unauthorized device connections.
-
-VLAN segmentation for department-level isolation.
-
-<h2>🛠️ Key Features Implemented</h2>h2>
-
-VLANs: Segregated network for different departments.
-
-Inter-VLAN Routing: Enabled through distribution switches.
-
-Port Security: Prevents unauthorized device connections.
-
-QoS (Quality of Service): Prioritization of VoIP and online transaction traffic.
-
-Scalable Topology: Supports addition of new branches and users.
-
-  <h2>Network Topology</h2>h2>
 <p align="center">
 Bank Network Topology: <br/>
 <img src="https://imgur.com/AIVf9Mu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+---
+
+## ⚙️ Key Features
+- ✅ **Redundant Core Routers** for high availability  
+- ✅ **Segregated Distribution Switches** per floor for efficiency  
+- ✅ **Access Layer Security** with port security and wireless APs  
+- ✅ **Optimized QoS** for VoIP phones and financial applications  
+- ✅ **Scalable Design** that supports future expansion  
+
+---
+
+## 📂 Departments & Floor Allocation
+- **1st Floor**: Management, Research, Human Resources  
+- **2nd Floor**: Marketing, Accounting, Finance  
+- **3rd Floor**: Logistics & Store, Customer Care, Guest Area  
+- **4th Floor**: Administration, ICT, Server Room  
+
+---
+
+## 📑 Documentation
+- [📊 Download Project Presentation (PPTX)](./file.pptx)
+
+---
+
+## 🚀 Tools Used
+- **Cisco Packet Tracer** – Simulation & design  
+- **Visio / Draw.io** – Diagram illustration  
+- **GitHub** – Documentation & portfolio showcase  
+
+---
+
+## 🛠️ Skills Demonstrated
+This project highlights key **network engineering and architecture skills**:
+- 🔹 **Routing & Switching** – OSPF/EIGRP, inter-VLAN routing  
+- 🔹 **Network Redundancy** – Core router failover and redundant links  
+- 🔹 **Access Layer Security** – Port security, DHCP snooping, ARP inspection  
+- 🔹 **VLAN Segmentation** – Isolating bank departments for security & performance  
+- 🔹 **Quality of Service (QoS)** – Prioritization of VoIP & financial apps  
+- 🔹 **IP Addressing & Subnetting** – Efficient addressing across departments  
+- 🔹 **Scalable Hierarchical Design** – Core, Distribution, Access model  
+- 🔹 **Wireless Networking** – Access points for mobility and guest access  
+- 🔹 **Documentation & Presentation** – Professional diagramming & portfolio build  
+
+---
+
+## 🔮 Future Improvements
+While the current design ensures reliability and scalability, the following enhancements are proposed for **enterprise-grade security and resilience**:
+- 🔐 **Firewalls & IDS/IPS** for advanced threat protection  
+- 🌐 **VPN Implementation** for secure remote banking operations  
+- ☁️ **Cloud Integration** (Hybrid setup for backup & disaster recovery)  
+- 📶 **Wireless Controller Deployment** for centralized AP management  
+- 🛡️ **Zero Trust Security Model** to minimize insider and external risks  
+- 📊 **Network Monitoring Tools** (SNMP, NetFlow, Syslog) for proactive troubleshooting  
+- 🤖 **Automation with Python & Ansible** for faster configuration management  
+
+---
+
+## 📝 Author
+**Precious Muyambo**  
+_Future Network Architect | Building resilient and secure digital infrastructures_  
+
+
   
 <h2>👨‍💻 Network Automation Projects:</h2>
   - [Creating a comprehensive data processing tool](https://github.com/user-attachments/assets/e0bf88a7-6037-4449-ba27-853b51da7353)
@@ -87,6 +99,11 @@ Bank Network Topology: <br/>
 ## 📂 Automation with Python and PowerShell for IT and Cybersecurity NOTES
 
 [📑 Download the Notes (PPTX)](https://files.fm/f/tkxaa5w36b)
+
+## 📂 Cloud Computing: Understanding Core Concepts NOTES
+[📑 Download the Notes (PPTX)](https://files.fm/f/pfp3uwsf33)
+
+
 
 <h2>Certificates</h2>
 
