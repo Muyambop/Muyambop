@@ -81,7 +81,7 @@ Bank Network Topology: <br/>
 
 ## 📂 Project Presentation
 
-[📑 Download the Presentation (PPTX)](./file.pptx)
+[📑 Download the Presentation (PPTX)](https://files.fm/f/jzqzbxhxtp.pptx)
 
 
 <h2>Certificates</h2>
