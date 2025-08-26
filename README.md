@@ -94,7 +94,7 @@ _Future Network Architect | Building resilient and secure digital infrastructure
 
 ---
 
-# 📂 NOTES
+# 📂 Notes:
 
 ## 📂 Software-Defined Networking (SDN)  NOTES
 
