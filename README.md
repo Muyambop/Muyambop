@@ -100,7 +100,7 @@ _Future Network Architect | Building resilient and secure digital infrastructure
 
 [📑 Download the Notes (PPTX)](https://files.fm/f/tkxaa5w36b)
 
-## 📂 Cloud Computing: Understanding Core Concepts NOTES
+## 📂 Cloud Computing Understanding Core Concepts NOTES
 [📑 Download the Notes (PPTX)](https://files.fm/f/pfp3uwsf33)
 
 
