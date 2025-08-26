@@ -123,7 +123,7 @@ _Future Network Architect | Building resilient and secure digital infrastructure
 
 
 
-[linkedin]: www.linkedin.com/in/precious-muyambo
+[linkedin]: https://www.linkedin.com/in/precious-muyambo-74b60a290/
 
 
 
