@@ -1,6 +1,6 @@
 <h1>Hi, I'm Precious! </h1>
 
-<h2>👨‍💻 Network Design Projects:</h2>
+<h2>👨‍💻 Network Design Projects with Cisco Packet Tracer & Visio:</h2>
 
 
 # 🏦 Bank Network Design Portfolio
