@@ -56,11 +56,10 @@ The organization is distributed across **4 floors**:
 ---
 
 ## 🖼️ Network Topology Diagram
-## 🖼️ Network Topology
 Below is the topology diagram showing the bank’s structured network design:
 
 <p align="center">
-Bank Network Topology: <br/>
+Physical Diagram: <br/>
 <img src="https://imgur.com/AIVf9Mu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
@@ -68,8 +67,8 @@ Bank Network Topology: <br/>
 Below is the topology diagram showing the bank’s structured network design:
 
 <p align="center">
-Bank Network Topology: <br/>
-<img src="https://imgur.com/AIVf9Mu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Logical Diagram: <br/>
+<img src="https://imgur.com/RVIi5hc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
   ---
