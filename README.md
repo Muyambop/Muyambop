@@ -73,7 +73,7 @@ Logical Diagram: <br/>
   ---
 
 ## 📑 Documentation
-- [📊 Download Project Presentation (PPTX)](https://files.fm/f/8khvhjezvh.pptx)
+- [📊 Download Project Presentation (PPTX)](https://files.fm/f/8khvhjezvh)
 
   ---
   
