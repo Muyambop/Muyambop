@@ -138,14 +138,14 @@ Logical Diagram: <br/>
 - **Achievements**: Designed and implemented a secure enterprise network with VLANs, DHCP, HTTP, Email servers, and OSPF routing. Verified end-to-end connectivity.  
 ## 🔮 Future Improvements
 While the current design ensures reliability and scalability, the following enhancements are proposed for **enterprise-grade security and resilience**:  
--🔐 **Firewalls & IDS/IPS** – Deploy firewalls and intrusion detection/prevention systems for advanced threat protection.  
--🌐 **VPN Implementation** – Establish secure Virtual Private Network tunnels for remote banking and branch operations.  
--☁️ **Cloud Integration** – Implement hybrid cloud for data backup, disaster recovery, and scalability.  
--🛡️ **Zero Trust Security Model** – Apply stricter access control to minimize insider and external security risks.  
--📊 **Network Monitoring Tools** – Use SNMP, NetFlow, and Syslog for proactive troubleshooting and performance monitoring.  
--🤖 **Automation with Python & Ansible** – Automate device configuration and updates for faster, error-free management.  
--🔄 **Add redundancy with HSRP/VRRP** – Configure Hot Standby Router Protocol (HSRP) or Virtual Router Redundancy Protocol (VRRP) to ensure continuous gateway availability in case of router failures.  
--🌍 **Extend IPv6 addressing** – Transition to IPv6 to future-proof the network, provide larger address space, and support modern applications and IoT devices.  
+🔐 **Firewalls & IDS/IPS** – Deploy firewalls and intrusion detection/prevention systems for advanced threat protection.  
+🌐 **VPN Implementation** – Establish secure Virtual Private Network tunnels for remote banking and branch operations.  
+☁️ **Cloud Integration** – Implement hybrid cloud for data backup, disaster recovery, and scalability.  
+🛡️ **Zero Trust Security Model** – Apply stricter access control to minimize insider and external security risks.  
+📊 **Network Monitoring Tools** – Use SNMP, NetFlow, and Syslog for proactive troubleshooting and performance monitoring.  
+🤖 **Automation with Python & Ansible** – Automate device configuration and updates for faster, error-free management.  
+🔄 **Add redundancy with HSRP/VRRP** – Configure Hot Standby Router Protocol (HSRP) or Virtual Router Redundancy Protocol (VRRP) to ensure continuous gateway availability in case of router failures.  
+🌍 **Extend IPv6 addressing** – Transition to IPv6 to future-proof the network, provide larger address space, and support modern applications and IoT devices.  
 
 ---
 
