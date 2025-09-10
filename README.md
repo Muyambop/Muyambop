@@ -1,5 +1,127 @@
 <h1>Hi, I'm Precious! </h1>
 
+
+# 🛠️ Network Tools Usage & Documentation
+Here is the detailed explanations of key tools I used for daily network operations, monitoring, troubleshooting, and documentation. Each section includes **how I used the tool**, a **practical example**, and a **summary**.
+
+---
+
+## 1. 📌 MobaXterm
+
+**How I used it:**  
+I used MobaXterm as my main SSH and Telnet client to log into network devices for configuration and troubleshooting. On a daily basis, I relied on it for routine health checks—verifying device uptime, CPU and memory usage, checking routing tables, and ensuring configurations were properly applied.
+
+**Practical Example:**  
+I would connect to routers and switches, run diagnostic commands, and generate reports showing the health of critical infrastructure. This helped me ensure that no device was overloaded or misconfigured.
+
+**Summary:**  
+✅ MobaXterm helped me manage device configurations and perform daily system health checks efficiently.
+
+---
+
+## 2. 📌 Huawei NCE (Network Cloud Engine)
+
+**How I used it:**  
+I used NCE as a centralized platform to monitor Huawei nodes. This tool allowed me to track performance metrics such as CPU, memory, and storage utilization across multiple devices.
+
+**Practical Example:**  
+Each day, I generated NE (Network Element) resource utilization reports to keep track of which nodes were nearing capacity or showing abnormal behavior. This proactive monitoring helped in capacity planning and avoided potential outages.
+
+**Summary:**  
+✅ NCE gave me a clear overview of Huawei node health and supported daily utilization reporting.
+
+---
+
+## 3. 📌 SolarWinds
+
+**How I used it:**  
+SolarWinds was my go-to for monitoring both nodes and links in the network. It provided visibility into traffic flow, link uptime, and latency issues.
+
+**Practical Example:**  
+I created daily reports focusing on primary links, ensuring critical paths were stable and had no packet loss or latency spikes. If a primary link showed degradation, I could escalate before customers were affected.
+
+**Summary:**  
+✅ SolarWinds ensured smooth monitoring of nodes and primary links, supporting proactive fault detection.
+
+---
+
+## 4. 📌 Wireshark
+
+**How I used it:**  
+I used Wireshark as a packet analyzer for deep troubleshooting when facing complex issues such as packet drops, VoIP call quality problems, or unusual traffic.
+
+**Practical Example:**  
+By capturing and analyzing packets, I could identify malformed packets, jitter, retransmissions, or specific applications consuming bandwidth. This helped isolate issues faster than using device logs alone.
+
+**Summary:**  
+✅ Wireshark helped me dive deep into network traffic to troubleshoot packet-level problems.
+
+---
+
+## 5. 📌 Microsoft Visio
+
+**How I used it:**  
+I used Visio to design logical and physical network diagrams. These diagrams documented the infrastructure, showing device interconnections, IP addressing schemes, and failover designs.
+
+**Practical Example:**  
+When proposing new setups or troubleshooting complex environments, I presented Visio diagrams to management and team members. These visuals simplified communication and made the network easier to understand.
+
+**Summary:**  
+✅ Visio helped me document and design network layouts for better planning and communication.
+
+---
+
+## 📖 Final Note
+
+These tools formed the foundation of my daily workflow in network operations. Together, they enabled me to:  
+- Perform **device configuration & health checks** 🖥️  
+- Monitor **nodes, links, and utilization** 📊  
+- Troubleshoot **packet-level issues** 📡  
+- Document **network architecture** 🗂️  
+
+---
+
+# 📂 Project Showcase
+
+Here are some real-world projects where I applied the above tools:
+
+### 🔹 Project 1: Gweru 3G Reroute Optimization
+- **Tools Used:** MobaXterm, Cisco Router (Cisco ASR 1001-X), Visio.  
+- **Objective:** Optimize the Gweru 3G backhaul to reduce unnecessary hops.  
+- **Highlights:**  
+  - Worked with TelOne after they laid fiber from HQ to Gweru 📡  
+  - Configured a Cisco ASR 1001-X router to aggregate and optimize BTS site connectivity ⚙️  
+  - Reduced multiple hops, improving latency and reliability for users in Gweru 🚀  
+
+📸 *Placeholder for Visio Topology Diagram / Cisco Config Screenshot*
+
+---
+
+### 🔹 Project 2: Huawei NCE Monitoring & Reporting
+- **Tools Used:** Huawei NCE, SolarWinds.  
+- **Objective:** Daily monitoring of Huawei core network nodes and reporting utilization.  
+- **Highlights:**  
+  - Generated NE (Network Element) resource utilization reports 📊  
+  - Identified nodes nearing CPU/memory capacity and escalated proactively ⚠️  
+  - Supported management with trend analysis for capacity planning 📈  
+
+📸 *Placeholder for NCE Dashboard Screenshot*
+
+---
+
+### 🔹 Project 3: Deep Packet Analysis for Unifun
+- **Tools Used:** Wireshark.  
+- **Objective:** Troubleshoot Unifun’s issue of not receiving data at their server.  
+- **Highlights:**  
+  - Captured and analyzed packets between client and Unifun server 🔍  
+  - Identified abnormal traffic patterns and missing payload delivery ❌  
+  - Isolated root cause, enabling resolution and restoring service ✅  
+
+📸 *Placeholder for Wireshark Capture Screenshot*
+
+---
+
+
 <h2>👨‍💻 Network Design Projects with Cisco Packet Tracer & Visio:</h2>
 
 # 📌 Enterprise Network Design and Implementation (Packet Tracer Project)
