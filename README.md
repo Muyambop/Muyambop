@@ -95,6 +95,10 @@ Here are some real-world projects where I applied the above tools:
 
 📸 *Placeholder for Visio Topology Diagram / Cisco Config Screenshot*
 
+Sample Cisco ASR 1001-X Configuration:
+
+cisco
+
 ---
 
 ### 🔹 Project 2: Huawei NCE Monitoring & Reporting
