@@ -167,7 +167,17 @@ Below are the tools used:
   - Identified nodes nearing CPU/memory capacity and escalated proactively ⚠️  
   - Supported management with trend analysis for capacity planning 📈  
 
-📸 *Placeholder for NCE Dashboard Screenshot*
+<p align="center">
+ NCE: <br/>
+<img src="https://imgur.com/pJFsrci.png" alt="Huawei NCE Monitoring" width="80%" height="80%">
+<br />
+ 
+
+<p align="center">
+  Report: <br/>
+<img src="https://imgur.com/YDbEeOx.png" height="80%" width="80%" alt="Reporting"/>
+<br />
+
 
 ---
 
