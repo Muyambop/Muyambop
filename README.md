@@ -185,9 +185,15 @@ Below are the tools used:
  
 
 <p align="center">
-  Primary links Report: <br/>
-<img src="https://imgur.com/undefined.png" height="80%" width="80%" alt="Reporting"/>
+Primary links Report: <br/>
+<img src="https://imgur.com/itNPs8q.png" height="80%" width="80%" alt="Reporting"/>
 <br />
+
+<p align="center">
+Healthy Checks Report: <br/>
+<img src="https://imgur.com/PVpY0JS.png" height="80%" width="80%" alt="Reporting"/>
+<br />
+
 ---
 
 ### 🔹 Project 3: Deep Packet Analysis for Unifun
