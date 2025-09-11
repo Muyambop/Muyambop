@@ -179,7 +179,11 @@ Below are the tools used:
   - Identified abnormal traffic patterns and missing payload delivery ❌  
   - Isolated root cause, enabling resolution and restoring service ✅  
 
-📸 *Placeholder for Wireshark Capture Screenshot*
+<p align="center">
+  Visio: <br/>
+<img src="https://imgur.com/i1UzodH.png" height="80%" width="80%" alt="Gweru 3G Project"/>
+<br />
+
 
 ---
 
