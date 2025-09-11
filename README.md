@@ -108,13 +108,13 @@ Here are some real-world projects where I applied the above tools:
   - Configured a Cisco ASR 1001-X router to aggregate and optimize BTS site connectivity ⚙️  
   - Reduced multiple hops, improving latency and reliability for users in Gweru 🚀  
 
-<p align="center">
-Physical Diagram: <br/>
-<img src="https://imgur.com/a/9S9OW2y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br /> 
 
 This picture captures me during the **Gweru 3G Reroute Project**, where I was responsible for optimizing and redesigning the network path to improve efficiency and performance.  
 
+<p align="center">
+Network Engineer at work: <br/>
+<img src="https://imgur.com/a/9S9OW2y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
 ---
 
 ## 🔧 Challenge  
@@ -138,17 +138,18 @@ The original design had **multiple unnecessary hops**, leading to higher latency
 
 ✨ This project demonstrates my hands-on expertise in **network optimization, ISP collaboration, and datacom engineering**.  
 
+---
 
+## Tools used: 
 
-MobaXterm 
 <p align="center">
-Physical Diagram: <br/>
+MobaXterm: <br/>
 <img src="https://imgur.com/a/ekXRpJk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-Visio
+
  <p align="center">
-Physical Diagram: <br/>
+Visio: <br/>
 <img src="https://https://imgur.com/a/zG1HCLv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
  
