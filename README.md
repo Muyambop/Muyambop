@@ -1,5 +1,20 @@
 <h1>Hi, I'm Precious! </h1>
 
+🔹 **Network Engineer | Datacom Specialist | Cloud & Security Enthusiast**  
+
+I have **4+ years of professional experience** in **network engineering and datacom solutions**, working with service providers and enterprise networks. My expertise spans **routing, switching, network security, automation, and cloud networking**. I’m passionate about building **resilient, scalable, and secure networks** that power modern businesses.  
+
+---
+
+## 🚀 About Me  
+
+🌐 Experienced in **Cisco, Juniper, ZTE, and Huawei** environments  
+🔐 Skilled in **firewall security, VPNs, IDS/IPS, and Zero Trust architecture**  
+☁️ Exploring **cloud networking (AWS, Azure, GCP)** and **virtualization**  
+🐍 Learning **Python for network automation**  
+📡 Passionate about **network design and core networks (SGSN, GGSN, LTE, 5G)**  
+
+---
 
 # 🛠️ Network Tools Usage & Documentation
 Here is the detailed explanations of key tools I used for daily network operations, monitoring, troubleshooting, and documentation. Each section includes **how I used the tool**, a **practical example**, and a **summary**.
