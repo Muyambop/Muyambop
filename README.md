@@ -110,10 +110,19 @@ Here are some real-world projects where I applied the above tools:
 
 📸 *Placeholder for Visio Topology Diagram / Cisco Config Screenshot*
 
-Sample Cisco ASR 1001-X Configuration:
 
-cisco
+MobaXterm 
+<p align="center">
+Physical Diagram: <br/>
+<img src="https://imgur.com/a/ekXRpJk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 
+Visio
+ <p align="center">
+Physical Diagram: <br/>
+<img src="https://https://imgur.com/a/zG1HCLv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ 
 ---
 
 ### 🔹 Project 2: Huawei NCE Monitoring & Reporting
