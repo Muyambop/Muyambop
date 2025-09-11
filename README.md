@@ -174,11 +174,20 @@ Below are the tools used:
  
 
 <p align="center">
-  Report: <br/>
+  Resource Utilization Report: <br/>
 <img src="https://imgur.com/YDbEeOx.png" height="80%" width="80%" alt="Reporting"/>
 <br />
 
+<p align="center">
+ Solarwinds: <br/>
+<img src="https://imgur.com/BsUN8s7.png" alt="Solawinds Monitoring" width="80%" height="80%">
+<br />
+ 
 
+<p align="center">
+  Primary links Report: <br/>
+<img src="https://imgur.com/undefined.png" height="80%" width="80%" alt="Reporting"/>
+<br />
 ---
 
 ### 🔹 Project 3: Deep Packet Analysis for Unifun
