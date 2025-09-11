@@ -111,11 +111,13 @@ Here are some real-world projects where I applied the above tools:
 
 This picture captures me during the **Gweru 3G Reroute Project**, where I was responsible for optimizing and redesigning the network path to improve efficiency and performance.  
 
+
 <p align="center">
-Network Engineer at work: <br/>
-<img src="https://imgur.com/a/9S9OW2y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br /> 
----
+ MobaXterm: <br/>
+<img src="https://imgur.com/erwARiG.png" alt="Gweru 3G Project" width="80%" height="80%">
+<br />
+ 
+
 
 ## 🔧 Challenge  
 The original design had **multiple unnecessary hops**, leading to higher latency and reduced reliability.  
@@ -141,18 +143,20 @@ The original design had **multiple unnecessary hops**, leading to higher latency
 ---
 
 ## Tools used: 
+Below are the tools used:
 
 <p align="center">
-MobaXterm: <br/>
-<img src="https://imgur.com/a/ekXRpJk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-
-
- <p align="center">
-Visio: <br/>
-<img src="https://https://imgur.com/a/zG1HCLv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ MobaXterm: <br/>
+<img src="https://imgur.com/kFwbURu.png" alt="Gweru 3G Project" width="80%" height="80%">
 <br />
  
+
+<p align="center">
+  Visio: <br/>
+<img src="https://imgur.com/G9N4hTt.png" height="80%" width="80%" alt="Gweru 3G Project"/>
+<br />
+
+
 ---
 
 ### 🔹 Project 2: Huawei NCE Monitoring & Reporting
