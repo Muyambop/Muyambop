@@ -108,12 +108,10 @@ Here are some real-world projects where I applied the above tools:
   - Configured a Cisco ASR 1001-X router to aggregate and optimize BTS site connectivity ⚙️  
   - Reduced multiple hops, improving latency and reliability for users in Gweru 🚀  
 
-
-This picture captures me during the **Gweru 3G Reroute Project**, where I was responsible for optimizing and redesigning the network path to improve efficiency and performance.  
-
+- This picture below captures me during the **Gweru 3G Reroute Project**, where I was responsible for optimizing and redesigning the network path to improve efficiency and performance
 
 <p align="center">
- MobaXterm: <br/>
+Network Engineer optimizing and redesigning the network path: <br/>
 <img src="https://imgur.com/erwARiG.png" alt="Gweru 3G Project" width="80%" height="80%">
 <br />
  
@@ -122,13 +120,11 @@ This picture captures me during the **Gweru 3G Reroute Project**, where I was re
 ## 🔧 Challenge  
 The original design had **multiple unnecessary hops**, leading to higher latency and reduced reliability.  
 
----
 
 ## 📡 Solution  
 - Collaborated with **TelOne**, who laid **fiber from HQ to Gweru**  
 - Configured a **Cisco switch cluster** to aggregate and manage traffic for BTS sites in the region  
 
----
 
 ## 🚀 Outcome  
 - ✅ Reduced latency  
@@ -136,11 +132,8 @@ The original design had **multiple unnecessary hops**, leading to higher latency
 - ✅ Scalable support for **3G services** in Gweru  
 
 
----
-
 ✨ This project demonstrates my hands-on expertise in **network optimization, ISP collaboration, and datacom engineering**.  
 
----
 
 ## Tools used: 
 Below are the tools used:
@@ -171,6 +164,7 @@ Below are the tools used:
  NCE: <br/>
 <img src="https://imgur.com/pJFsrci.png" alt="Huawei NCE Monitoring" width="80%" height="80%">
 <br />
+
  
 
 <p align="center">
@@ -178,16 +172,20 @@ Below are the tools used:
 <img src="https://imgur.com/YDbEeOx.png" height="80%" width="80%" alt="Reporting"/>
 <br />
 
+
+
 <p align="center">
  Solarwinds: <br/>
 <img src="https://imgur.com/BsUN8s7.png" alt="Solawinds Monitoring" width="80%" height="80%">
 <br />
+
  
 
 <p align="center">
 Primary links Report: <br/>
 <img src="https://imgur.com/itNPs8q.png" height="80%" width="80%" alt="Reporting"/>
 <br />
+
 
 <p align="center">
 Healthy Checks Report: <br/>
