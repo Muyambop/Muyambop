@@ -308,33 +308,54 @@ This project demonstrates the setup of an **Active Directory Domain Controller (
 - [GitHub Profile](https://github.com/Muyambop) 
 
 ---
-## PowerShell script
-## Bulk Create 1000 Active Directory Users
-Author: Precious Muyambo
-Date: 2025-09-22
+# PowerShell script
 
-## Import-Module ActiveDirectory
+ # ----- Edit these Variables for your own Use Case ----- #
+$PASSWORD_FOR_USERS   = "Password1"
+$NUMBER_OF_ACCOUNTS_TO_CREATE = 10000
+# ------------------------------------------------------ #
 
-Organizational Unit (OU) where users will be created
-$OU = "OU=LabUsers,DC=mydomain,DC=com"
+Function generate-random-name() {
+    $consonants = @('b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','z')
+    $vowels = @('a','e','i','o','u','y')
+    $nameLength = Get-Random -Minimum 3 -Maximum 7
+    $count = 0
+    $name = ""
 
-## Loop through 1 to 1000
-for ($i = 1; $i -le 1000; $i++) {
-    $Username = "User$i"
-    $Password = "P@ssw0rd123!" | ConvertTo-SecureString -AsPlainText -Force
+    while ($count -lt $nameLength) {
+        if ($($count % 2) -eq 0) {
+            $name += $consonants[$(Get-Random -Minimum 0 -Maximum $($consonants.Count - 1))]
+        }
+        else {
+            $name += $vowels[$(Get-Random -Minimum 0 -Maximum $($vowels.Count - 1))]
+        }
+        $count++
+    }
 
-    New-ADUser `
-        -Name $Username `
-        -SamAccountName $Username `
-        -UserPrincipalName "$Username@mydomain.com" `
-        -Path $OU `
-        -AccountPassword $Password `
-        -Enabled $true `
-        -ChangePasswordAtLogon $false
+    return $name
 
-    Write-Output "Created user: $Username"
 }
 
+$count = 1
+while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
+    $fisrtName = generate-random-name
+    $lastName = generate-random-name
+    $username = $fisrtName + '.' + $lastName
+    $password = ConvertTo-SecureString $PASSWORD_FOR_USERS -AsPlainText -Force
+
+    Write-Host "Creating user: $($username)" -BackgroundColor Black -ForegroundColor Cyan
+    
+    New-AdUser -AccountPassword $password `
+               -GivenName $firstName `
+               -Surname $lastName `
+               -DisplayName $username `
+               -Name $username `
+               -EmployeeID $username `
+               -PasswordNeverExpires $true `
+               -Path "ou=_EMPLOYEES,$(([ADSI]`"").distinguishedName)" `
+               -Enabled $true
+    $count++
+}
 
 ---
 
