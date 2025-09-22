@@ -298,8 +298,9 @@ This project demonstrates the setup of an **Active Directory Domain Controller (
 
 <p align="center">
  Network Diagram: <br/>
-<img src="(https://imgur.com/9DHIAG7).png" alt="Network Diagram" width="80%" height="80%">
+<img src="https://imgur.com/9DHIAG7.png" alt="Network Diagram" width="80%" height="80%">
 <br />
+  
 ---
 
 ## 👤 Author
