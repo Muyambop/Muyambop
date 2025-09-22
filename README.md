@@ -209,7 +209,175 @@ Healthy Checks Report: <br/>
 
 
 ---
+# Active Directory Lab with DHCP, NAT, and Client Setup
 
+This project demonstrates the setup of an **Active Directory Domain Controller (DC)** with DHCP, NAT, and client integration using **Server 2019** and **Windows 10** inside **VirtualBox** or **VMware**. The lab simulates a small enterprise network with Internet connectivity and centralized management.
+
+---
+
+## 📌 Project Overview
+
+- **Domain Controller (Server 2019)** configured with:
+  - Active Directory Domain Services (AD DS)
+  - DNS
+  - DHCP
+  - NAT/Routing
+- **Client (Windows 10)** joined to the domain.
+- **PowerShell automation** used to create **+1k test users** in Active Directory.
+- **Internet access** provided to internal clients via NAT.
+
+---
+
+## 🖥️ Lab Setup
+
+### Virtual Machines
+- **DC (Server 2019)**  
+  - NIC 1 (Internet): Gets DHCP from home router  
+  - NIC 2 (Internal): Static IP `172.16.0.1`  
+  - Roles: AD DS, DNS, DHCP, NAT
+- **Client1 (Windows 10)**  
+  - NIC (Internal): Gets IP from DC via DHCP  
+  - Domain-joined to `mydomain.com`
+
+---
+
+## 🌐 Network Configuration
+
+### Domain Controller (Server 2019)
+- **Internal NIC**  
+  - IP: `172.16.0.1`  
+  - Subnet Mask: `255.255.255.0`  
+  - DNS: `127.0.0.1`  
+
+- **DHCP Scope**  
+  - Range: `172.16.0.100 – 172.16.0.200`  
+  - Subnet Mask: `255.255.255.0`  
+  - Gateway: `172.168.0.1`  
+  - DNS: `172.16.0.1`  
+
+### Client1 (Windows 10)
+- NIC (Internal): Receives DHCP from DC  
+- Domain: `mydomain.com`  
+
+---
+
+## ⚡ Features
+- Centralized **Active Directory domain** for authentication.  
+- **DHCP** for automatic IP assignment.  
+- **DNS** for domain resolution.  
+- **NAT/RAS** to allow internal clients access to the Internet.  
+- **PowerShell scripting** to bulk-create users (+1,000 test accounts).  
+
+---
+
+## 🔧 Requirements
+- Virtualization software (VirtualBox or VMware).  
+- **Windows Server 2019 ISO**.  
+- **Windows 10 ISO**.  
+
+---
+
+## 🚀 How to Run
+1. Install **Server 2019** VM with 2 NICs (Internet + Internal).  
+2. Configure static IP on internal NIC (`172.16.0.1`).  
+3. Install and configure AD DS, DNS, DHCP, and NAT.  
+4. Create domain `mydomain.com`.  
+5. Install **Windows 10** VM, connect it to the Internal network, and join it to the domain.  
+6. Use provided **PowerShell script** to create test users.  
+
+---
+
+## 📜 Notes
+- Ensure **Internal network** is only for domain communication.  
+- NAT is required for client Internet access.  
+- Adjust DHCP scope and DNS as per lab environment.  
+
+---
+
+## 📷 Diagram
+![Network Diagram](./diagram.png)
+
+---
+
+## 👤 Author
+- Precious Muyambo  
+- [GitHub Profile](https://github.com/Muyambop) 
+
+---
+
+## Bulk Create 1000 Active Directory Users
+Author: Precious Muyambo
+Date: 2025-09-22
+
+Import-Module ActiveDirectory
+
+Organizational Unit (OU) where users will be created
+$OU = "OU=LabUsers,DC=mydomain,DC=com"
+
+Loop through 1 to 1000
+for ($i = 1; $i -le 1000; $i++) {
+    $Username = "User$i"
+    $Password = "P@ssw0rd123!" | ConvertTo-SecureString -AsPlainText -Force
+
+    New-ADUser `
+        -Name $Username `
+        -SamAccountName $Username `
+        -UserPrincipalName "$Username@mydomain.com" `
+        -Path $OU `
+        -AccountPassword $Password `
+        -Enabled $true `
+        -ChangePasswordAtLogon $false
+
+    Write-Output "Created user: $Username"
+}
+
+
+---
+
+## 🔧 How It Works:
+
+The script uses the Active Directory module (Import-Module ActiveDirectory).
+
+It loops from User1 to User1000.
+
+Each account is created with:
+
+SamAccountName = User1, User2, … User1000
+
+Default password = P@ssw0rd123!
+
+Domain = mydomain.com
+
+OU = OU=LabUsers,DC=mydomain,DC=com (replace with your actual OU path).
+
+Accounts are enabled immediately.
+
+---
+
+
+## References  
+
+1. Microsoft Docs. (2024). *Active Directory Domain Services Overview.* Retrieved from [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)  
+
+2. Microsoft Docs. (2024). *Install a new Active Directory forest.* Retrieved from [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-a-new-active-directory-forest](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-a-new-active-directory-forest)  
+
+3. Microsoft Docs. (2023). *DHCP Server Role in Windows Server.* Retrieved from [https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-top](https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-top)  
+
+4. Microsoft Docs. (2023). *Configure NAT with Windows Server.* Retrieved from [https://learn.microsoft.com/en-us/windows-server/remote/remote-access/nat/](https://learn.microsoft.com/en-us/windows-server/remote/remote-access/nat/)  
+
+5. VMware Docs. (2024). *Using VMware Workstation for Windows Server Labs.* Retrieved from [https://docs.vmware.com](https://docs.vmware.com)  
+
+6. Oracle VM VirtualBox Manual. (2024). *Networking in VirtualBox.* Retrieved from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html)  
+
+7. Microsoft Tech Community. (2023). *Best Practices for Domain Controller Deployment.* Retrieved from [https://techcommunity.microsoft.com](https://techcommunity.microsoft.com)  
+
+8. Gibson, D. (2022). *Managing and Maintaining a Microsoft Windows Server Environment.* Wiley Publishing.  
+
+9. Minasi, M. (2019). *Mastering Windows Server 2019.* Sybex Publishing.  
+
+10. Pluralsight. (2024). *Active Directory & Windows Server Administration Courses.* Retrieved from [https://www.pluralsight.com](https://www.pluralsight.com)  
+
+---
 
 <h2>👨‍💻 Network Design Projects with Cisco Packet Tracer & Visio:</h2>
 
