@@ -295,8 +295,11 @@ This project demonstrates the setup of an **Active Directory Domain Controller (
 ---
 
 ## 📷 Diagram
-![Network Diagram](./diagram.png)
 
+<p align="center">
+ Network Diagram: <br/>
+<img src="(https://imgur.com/9DHIAG7).png" alt="Network Diagram" width="80%" height="80%">
+<br />
 ---
 
 ## 👤 Author
@@ -304,17 +307,17 @@ This project demonstrates the setup of an **Active Directory Domain Controller (
 - [GitHub Profile](https://github.com/Muyambop) 
 
 ---
-
+## PowerShell script
 ## Bulk Create 1000 Active Directory Users
 Author: Precious Muyambo
 Date: 2025-09-22
 
-Import-Module ActiveDirectory
+## Import-Module ActiveDirectory
 
 Organizational Unit (OU) where users will be created
 $OU = "OU=LabUsers,DC=mydomain,DC=com"
 
-Loop through 1 to 1000
+## Loop through 1 to 1000
 for ($i = 1; $i -le 1000; $i++) {
     $Username = "User$i"
     $Password = "P@ssw0rd123!" | ConvertTo-SecureString -AsPlainText -Force
