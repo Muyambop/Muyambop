@@ -329,7 +329,7 @@ Healthy Checks Report: <br/>
 
 
 ---
-# Active Directory Lab with DHCP, NAT, and Client Setup
+#  Project 4: Active Directory Lab with DHCP, NAT, and Client Setup
 
 This project demonstrates the setup of an **Active Directory Domain Controller (DC)** with DHCP, NAT, and client integration using **Server 2019** and **Windows 10** inside **VirtualBox** or **VMware**. The lab simulates a small enterprise network with Internet connectivity and centralized management.
 
@@ -527,7 +527,7 @@ Test connectivity : <br/>
 ---
 
 
-# 🧱 SafeLine WAF Home Lab 
+#  Project 5: 🧱 SafeLine WAF Home Lab 
 
 This repository contains a **complete cybersecurity home lab** demonstrating how to deploy and secure a vulnerable web application using **SafeLine Web Application Firewall (WAF)**.
 
@@ -651,7 +651,7 @@ This project bridges the gap between **penetration testing** and **secure web in
 
 ---
 
-# 🧱 Windows VM Attack Map — Microsoft Azure Free Account
+#  Project 6: 🧱 Windows VM Attack Map — Microsoft Azure Free Account
 
 This project demonstrates how to **deploy a Windows Virtual Machine (VM)** on a **Microsoft Azure Free Account**, expose it to the internet, and visualize **real-world cyber attacks** using the **Azure Security Center Attack Map**.
 
@@ -787,7 +787,7 @@ By completing this lab, you’ll gain a deeper understanding of **cloud attack s
 
 <h2>👨‍💻 Network Design Projects with Cisco Packet Tracer & Visio:</h2>
 
-# 📌 Enterprise Network Design and Implementation (Packet Tracer Project)
+#  Project 7: 📌 Enterprise Network Design and Implementation (Packet Tracer Project)
 
 ## 📖 Overview
 This project focuses on designing and implementing a hierarchical enterprise network topology using Cisco Packet Tracer.  
