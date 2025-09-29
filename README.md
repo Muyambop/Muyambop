@@ -308,55 +308,62 @@ This project demonstrates the setup of an **Active Directory Domain Controller (
 - [GitHub Profile](https://github.com/Muyambop) 
 
 ---
-# PowerShell script
 
- # ----- Edit these Variables for your own Use Case ----- #
-$PASSWORD_FOR_USERS   = "Password1"
-$NUMBER_OF_ACCOUNTS_TO_CREATE = 10000
-# ------------------------------------------------------ #
+<p align="center">
+ DC: <br/>
+<img src="https://imgur.com/a3XwBqD.png" alt="DC" width="80%" height="80%">
+<br />
 
-Function generate-random-name() {
-    $consonants = @('b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','z')
-    $vowels = @('a','e','i','o','u','y')
-    $nameLength = Get-Random -Minimum 3 -Maximum 7
-    $count = 0
-    $name = ""
+ <p align="center">
+ Internal NIC: <br/>
+<img src="https://imgur.com/Kjcxk0V.png" alt="internal NIC" width="80%" height="80%">
+<br /
 
-    while ($count -lt $nameLength) {
-        if ($($count % 2) -eq 0) {
-            $name += $consonants[$(Get-Random -Minimum 0 -Maximum $($consonants.Count - 1))]
-        }
-        else {
-            $name += $vowels[$(Get-Random -Minimum 0 -Maximum $($vowels.Count - 1))]
-        }
-        $count++
-    }
 
-    return $name
+   <p align="center">
+ Active Directory: <br/>
+<img src="https://imgur.com/LqhxFB5.png" alt="AD" width="80%" height="80%">
+<br /
 
-}
+ <p align="center">
+ Organizational Unit: <br/>
+<img src="https://imgur.com/kYty2yw.png" alt="Organizational Unit" width="80%" height="80%">
+<br /
 
-$count = 1
-while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
-    $fisrtName = generate-random-name
-    $lastName = generate-random-name
-    $username = $fisrtName + '.' + $lastName
-    $password = ConvertTo-SecureString $PASSWORD_FOR_USERS -AsPlainText -Force
+<p align="center">
+Scope: <br/>
+<img src="https://imgur.com/lxU7aYg.png" alt="New scope" width="80%" height="80%">
+<br /
 
-    Write-Host "Creating user: $($username)" -BackgroundColor Black -ForegroundColor Cyan
-    
-    New-AdUser -AccountPassword $password `
-               -GivenName $firstName `
-               -Surname $lastName `
-               -DisplayName $username `
-               -Name $username `
-               -EmployeeID $username `
-               -PasswordNeverExpires $true `
-               -Path "ou=_EMPLOYEES,$(([ADSI]`"").distinguishedName)" `
-               -Enabled $true
-    $count++
-}
 
+
+<p align="center">
+IP address range: <br/>
+<img src="https://imgur.com/37yco7c.png" alt="IP address range" width="80%" height="80%">
+<br /
+  
+<p align="center">
+Default gateway: <br/>
+<img src="https://imgur.com/ufmiHjA.png" alt="Default gateway" width="80%" height="80%">
+<br /
+
+
+<p align="center">
+NAT: <br/>
+<img src="https://imgur.com/dfFuymM.png" alt="NAT" width="80%" height="80%">
+<br /
+
+<p align="center">
+DNS: <br/>
+<img src="https://imgur.com/JcEK0yh.png" alt="DNS" width="80%" height="80%">
+<br /
+
+<p align="center">
+PowerShell: <br/>
+<img src="https://imgur.com/9VvKzwo.png" alt="PowerShell" width="80%" height="80%">
+<br /
+
+  
 ---
 
 ## 🔧 How It Works:
