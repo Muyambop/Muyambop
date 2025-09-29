@@ -1,6 +1,6 @@
 <h1>Hi, I'm Precious! </h1>
 
-🔹 **Network Engineer | Datacom Specialist | Cloud & Security Enthusiast**  
+🔹 **Network Engineer | IT Administrator | Cloud & Security Enthusiast**  
 
 I have **4+ years of professional experience** in **network engineering and datacom solutions**, working with service providers and enterprise networks. My expertise spans **routing, switching, network security, automation, and cloud networking**. I’m passionate about building **resilient, scalable, and secure networks** that power modern businesses.  
 
@@ -84,15 +84,20 @@ When proposing new setups or troubleshooting complex environments, I presented V
 **Summary:**  
 ✅ Visio helped me document and design network layouts for better planning and communication.
 
+
+
+## 📖 Final Note
+
+These tools formed the foundation of my daily workflow in network operations. Together, they enabled me to:  
+- Perform **device configuration & health checks** 🖥️  
+- Monitor **nodes, links, and utilization** 📊  
+- Troubleshoot **packet-level issues** 📡  
+- Document **network architecture** 🗂️  
+
+
 ---
 
-# 🧰 Tools & Technologies Used — Windows VM Attack Map (Azure Lab)
-
-This lab demonstrates practical use of **enterprise IT and cybersecurity tools** in a **cloud-based attack simulation** environment.  
-Each tool contributes to deploying, managing, securing, and monitoring a **Windows Server VM** hosted on **Microsoft Azure**.
-
-Below is a detailed explanation of how each tool or technology is applied in the project.
-
+# 🧰 Tools & Technologies Used 
 ---
 
 ## ☁️ Microsoft Azure Free Account
@@ -163,8 +168,6 @@ Below is a detailed explanation of how each tool or technology is applied in the
 - **Purpose:** Perimeter security and secure remote connectivity.
 - **Usage:**
   - (In extended enterprise setups) used to **restrict traffic** and **segment networks**.
-  - Demonstrates contrast between **on-prem firewall rules** and **cloud NSG rules**.
-  - Showcases **VPN tunneling** to securely access Azure VMs without exposing RDP.
 
 ---
 
@@ -181,8 +184,6 @@ Below is a detailed explanation of how each tool or technology is applied in the
 - **Purpose:** Local **simulation and testing** environments for comparison.
 - **Usage:**
   - Used **VMware/Hyper-V** to build local test labs.
-  - Compared **on-prem attack surface** vs **cloud-exposed VMs**.
-  - Validated backup/recovery strategies before deploying on Azure.
 
 ---
 
@@ -200,10 +201,7 @@ Below is a detailed explanation of how each tool or technology is applied in the
 - **Purpose:** Automate deployment, configuration, and security analysis.
 - **Usage:**
   - Used **PowerShell** commands to:
-    - Create Azure VMs
-    - Open/close ports
-    - Query Defender alerts
-  - Demonstrated how **Python scripts** could automate log collection and attack analysis.
+    - Create  VMs
 
 ---
 
@@ -216,29 +214,7 @@ Below is a detailed explanation of how each tool or technology is applied in the
 
 ---
 
-## 🧠 Summary
 
-This lab combines **cloud security**, **network engineering**, and **automation** to:
-- Deploy and expose a **Windows VM** in **Azure**  
-- Visualize **real-world attack attempts** via the **Attack Map**  
-- Strengthen understanding of **defensive measures**, **firewalls**, and **identity management**  
-- Practice **incident response** and **compliance** within a controlled testbed
-
-By leveraging these tools, learners gain **end-to-end visibility** from **infrastructure design** to **threat detection** and **response automation**.
-
----
-
-
-
-## 📖 Final Note
-
-These tools formed the foundation of my daily workflow in network operations. Together, they enabled me to:  
-- Perform **device configuration & health checks** 🖥️  
-- Monitor **nodes, links, and utilization** 📊  
-- Troubleshoot **packet-level issues** 📡  
-- Document **network architecture** 🗂️  
-
----
 
 # 📂 Project Showcase
 
@@ -520,25 +496,6 @@ Test connectivity : <br/>
 <br /
 ---
 
-## 🔧 How script Works:
-
-The script uses the Active Directory module (Import-Module ActiveDirectory).
-
-It loops from User1 to User1000.
-
-Each account is created with:
-
-SamAccountName = User1, User2, … User1000
-
-Default password = P@ssw0rd123!
-
-Domain = mydomain.com
-
-OU = OU=LabUsers,DC=mydomain,DC=com (replace with your actual OU path).
-
-Accounts are enabled immediately.
-
----
 
 ## 👤 Author
 - Precious Muyambo  
