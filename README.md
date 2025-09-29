@@ -946,14 +946,6 @@ While the current design ensures reliability and scalability, the following enha
 **Precious Muyambo**  
 _Future Network Architect | Building resilient and secure digital infrastructures_  
 
-
-  
-<h2>👨‍💻 Network Automation Projects:</h2>
-  - [Creating a comprehensive data processing tool]
-  - [Build an automated security monitoring system]
-  - [Integrate network management suite]
-
-
 ---
 
 # 📂 Notes:
