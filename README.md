@@ -303,11 +303,6 @@ This project demonstrates the setup of an **Active Directory Domain Controller (
   
 ---
 
-## 👤 Author
-- Precious Muyambo  
-- [GitHub Profile](https://github.com/Muyambop) 
-
----
 
 <p align="center">
  DC: <br/>
@@ -381,7 +376,7 @@ Test connectivity : <br/>
 <br /
 ---
 
-## 🔧 How It Works:
+## 🔧 How script Works:
 
 The script uses the Active Directory module (Import-Module ActiveDirectory).
 
@@ -401,7 +396,11 @@ Accounts are enabled immediately.
 
 ---
 
+## 👤 Author
+- Precious Muyambo  
+- [GitHub Profile](https://github.com/Muyambop) 
 
+---
 ## References  
 
 1. Microsoft Docs. (2024). *Active Directory Domain Services Overview.* Retrieved from [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)  
