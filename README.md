@@ -363,7 +363,22 @@ PowerShell: <br/>
 <img src="https://imgur.com/9VvKzwo.png" alt="PowerShell" width="80%" height="80%">
 <br /
 
-  
+<p align="center">
+Users: <br/>
+<img src="https://imgur.com/3pQdSxr.png" alt="Users" width="80%" height="80%">
+<br /
+
+
+  <p align="center">
+Client1: <br/>
+<img src="https://imgur.com/EDa7DCk.png" alt="Client1" width="80%" height="80%">
+<br /
+
+    
+  <p align="center">
+Test connectivity : <br/>
+<img src="https://imgur.com/gVwXTZB.png" alt="Test connectivity " width="80%" height="80%">
+<br /
 ---
 
 ## 🔧 How It Works:
