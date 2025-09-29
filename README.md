@@ -426,7 +426,7 @@ Accounts are enabled immediately.
 ---
 
 
-# 🧱 SafeLine WAF Home Lab — Summary README
+# 🧱 SafeLine WAF Home Lab 
 
 This repository contains a **complete cybersecurity home lab** demonstrating how to deploy and secure a vulnerable web application using **SafeLine Web Application Firewall (WAF)**.
 
@@ -550,17 +550,139 @@ This project bridges the gap between **penetration testing** and **secure web in
 
 ---
 
+# 🧱 Windows VM Attack Map — Microsoft Azure Free Account
+
+This project demonstrates how to **deploy a Windows Virtual Machine (VM)** on a **Microsoft Azure Free Account**, expose it to the internet, and visualize **real-world cyber attacks** using the **Azure Security Center Attack Map**.
+
+The lab provides hands-on experience in **cloud security monitoring**, **attack detection**, and **threat visualization** within the Azure environment.
+
+---
+
+## 🧠 Project Overview
+
+You will learn how to:
+- Set up a **Windows Server VM** using the **Azure Free Tier**
+- Configure **public network access** to simulate real-world exposure
+- Enable **Microsoft Defender for Cloud**
+- View **live attack data** on the **Azure Attack Map**
+- Understand **common attack patterns** (RDP brute force, port scanning, malware attempts)
+
+---
+
+## 🧰 Tools & Services Used
+
+| Tool / Service | Purpose |
+|----------------|----------|
+| **Microsoft Azure Free Account** | Cloud environment |
+| **Windows Server VM** | Target for attack simulation |
+| **Azure Portal** | Management interface |
+| **Microsoft Defender for Cloud** | Security monitoring and protection |
+| **Azure Attack Map** | Visual representation of attack sources |
+| **RDP (Remote Desktop Protocol)** | Remote access interface often targeted by attackers |
+
+---
+
+## ⚙️ Step-by-Step Setup
+
+### 1. 🪟 Create a Microsoft Azure Free Account
+- Go to [https://azure.microsoft.com/free](https://azure.microsoft.com/free)
+- Sign up using your email, phone, and payment method (no charges during free tier)
+- You’ll receive **$200 credit** for 30 days and **12 months of free services**
+
+---
+
+### 2. 🧱 Create a Windows Virtual Machine
+1. Navigate to **Azure Portal** → **Virtual Machines** → **Create**
+2. Select:
+   - **Image**: Windows Server 2022 Datacenter
+   - **Size**: Standard B1s (free tier eligible)
+   - **Username**: `azureadmin`
+   - **Password**: choose a strong one
+3. Under **Inbound Ports**, select:
+   - ✅ **RDP (3389)**
+   - ✅ **HTTP (80)**
+4. Click **Review + Create** → **Create**
+
+---
+
+### 3. 🌐 Configure Networking
+- VM will have a **Public IP** assigned
+- Open **Networking** tab
+- Ensure **RDP (TCP/3389)** and **HTTP (TCP/80)** are open
+- (Optional) Add port **445** or **22** to attract more attacks (⚠️ for testing only)
+
+---
+
+### 4. 🛡️ Enable Microsoft Defender for Cloud
+1. In Azure Portal, search **Defender for Cloud**
+2. Enable it for your subscription
+3. Turn on **Enhanced Security Features**
+4. Enable **Microsoft Defender for Servers**
+
+---
+
+### 5. 🌍 View Attack Map
+1. Wait **12–24 hours** after exposing the VM publicly
+2. Go to **Microsoft Defender for Cloud → Security Alerts**
+3. Select **Attack Map** visualization
+4. Observe:
+   - Source countries
+   - Attack types (RDP brute force, port scanning)
+   - Frequency and timestamps
+
+---
+
+### 6. 📊 Monitor and Analyze
+- Review **Security Alerts**
+- Identify attacker IPs, geolocation, and methods
+- Learn how **attack surface exposure** invites malicious activity
+
+---
+
+## 🔐 Security Best Practices (After Testing)
+
+Once you finish the experiment:
+- Disable or delete the VM
+- Close all inbound ports
+- Use **Network Security Groups (NSG)** with limited access
+- Implement **Just-In-Time (JIT)** access for RDP
+- Enable **Multi-Factor Authentication (MFA)** for Azure login
+
+---
+
+## 🧾 Skills Demonstrated
+
+- ☁️ **Cloud Infrastructure Setup (Azure)**
+- 🧱 **Windows Server Configuration**
+- 🌍 **Public Network Exposure & Attack Simulation**
+- 🔍 **Threat Detection and Analysis**
+- 🧠 **Understanding Brute Force and Reconnaissance Attacks**
+- 🛡️ **Cloud Security Center Monitoring**
+
+---
+
+## 📚 References
+
+- [Microsoft Azure Free Account](https://azure.microsoft.com/free)  
+- [Microsoft Defender for Cloud Docs](https://learn.microsoft.com/en-us/azure/defender-for-cloud)  
+- [Azure Attack Map Overview](https://portal.azure.com)  
+- [Windows Server 2022 Image](https://learn.microsoft.com/en-us/windows-server/get-started/whats-new-windows-server-2022)
+
+---
+
+## 🧠 Summary
+
+This project demonstrates how **exposing a Windows VM to the public internet** leads to real-world attack attempts, visible through Azure’s **Attack Map**.  
+It provides practical insights into:
+- How attackers discover vulnerable endpoints
+- Why **defensive monitoring** and **secure configuration** are essential
+- The importance of **cloud-native security tools** like **Defender for Cloud**
+
+By completing this lab, you’ll gain a deeper understanding of **cloud attack surfaces** and **threat visibility** in **Microsoft Azure**.
+
+---
 
 
-
-
-
-
-
-
-
-
-   
 
 <h2>👨‍💻 Network Design Projects with Cisco Packet Tracer & Visio:</h2>
 
