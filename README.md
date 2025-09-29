@@ -19,7 +19,7 @@ I have **4+ years of professional experience** in **network engineering and data
 # 🛠️ Network Tools Usage & Documentation
 Here is the detailed explanations of key tools I used for daily network operations, monitoring, troubleshooting, and documentation. Each section includes **how I used the tool**, a **practical example**, and a **summary**.
 
----
+
 
 ## 1. 📌 MobaXterm
 
@@ -85,6 +85,150 @@ When proposing new setups or troubleshooting complex environments, I presented V
 ✅ Visio helped me document and design network layouts for better planning and communication.
 
 ---
+
+# 🧰 Tools & Technologies Used — Windows VM Attack Map (Azure Lab)
+
+This lab demonstrates practical use of **enterprise IT and cybersecurity tools** in a **cloud-based attack simulation** environment.  
+Each tool contributes to deploying, managing, securing, and monitoring a **Windows Server VM** hosted on **Microsoft Azure**.
+
+Below is a detailed explanation of how each tool or technology is applied in the project.
+
+---
+
+## ☁️ Microsoft Azure Free Account
+- **Purpose:** Cloud hosting platform for creating and managing virtual machines and services.  
+- **Usage:**
+  - Created a **free-tier account** to deploy the Windows Server VM.
+  - Managed resources using the **Azure Portal**.
+  - Integrated with **Microsoft Defender for Cloud** to visualize real-time attacks.
+  - Simulated real-world attack exposure by keeping RDP and HTTP ports open.
+
+---
+
+## 🖥️ Windows Server VM
+- **Purpose:** Acts as the **target system** for simulated attacks from the internet.
+- **Usage:**
+  - Deployed using **Azure Virtual Machines** service.
+  - Configured with **public IP** and open **RDP (3389)** for remote access.
+  - Observed attacks (e.g., brute-force, port scanning) in the **Azure Attack Map**.
+
+---
+
+## 🌐 Azure Portal
+- **Purpose:** Central **management console** for Azure services.
+- **Usage:**
+  - Created and configured **VMs**, **Network Security Groups**, and **Defender for Cloud**.
+  - Viewed **security alerts**, **attack sources**, and **performance metrics**.
+  - Used **dashboard visualizations** to monitor real-time attack data.
+
+---
+
+## 🛡️ Microsoft Defender for Cloud
+- **Purpose:** Provides **threat protection**, **vulnerability assessment**, and **security posture** insights.
+- **Usage:**
+  - Enabled on the subscription to monitor exposed ports and suspicious activity.
+  - Displayed **Attack Map** showing geographic sources of attacks.
+  - Generated **security alerts** for RDP brute-force attempts and malware scans.
+
+---
+
+## 🌍 Azure Attack Map
+- **Purpose:** **Visual tool** that displays real-time attack telemetry from exposed resources.
+- **Usage:**
+  - Monitored inbound attack attempts on the **Windows VM**.
+  - Showed **attacker IPs**, **locations**, and **attack types**.
+  - Provided visibility into **global threat activity** affecting the lab.
+
+---
+
+## 🔑 RDP (Remote Desktop Protocol)
+- **Purpose:** Remote management interface for Windows servers.
+- **Usage:**
+  - Used to **log into** the Windows Server VM from a local workstation.
+  - Exposed **TCP port 3389** to simulate attack surface.
+  - Observed frequent **brute-force attempts** from global sources.
+
+---
+
+## 🧰 Microsoft 365 & Active Directory Administration
+- **Purpose:** Centralized **identity and access management** and integration with Azure.
+- **Usage:**
+  - Integrated **Azure Active Directory** to manage VM user authentication.
+  - Demonstrated how exposed accounts become targets for **credential attacks**.
+  - Reinforced importance of **MFA** and **role-based access**.
+
+---
+
+## 🔥 Juniper Firewall & VPN Configuration
+- **Purpose:** Perimeter security and secure remote connectivity.
+- **Usage:**
+  - (In extended enterprise setups) used to **restrict traffic** and **segment networks**.
+  - Demonstrates contrast between **on-prem firewall rules** and **cloud NSG rules**.
+  - Showcases **VPN tunneling** to securely access Azure VMs without exposing RDP.
+
+---
+
+## 🌐 Network Design & Troubleshooting (TCP/IP, DNS, DHCP, Routing, Switching)
+- **Purpose:** Ensures reliable connectivity and traffic flow between cloud and local environments.
+- **Usage:**
+  - Configured **public IP**, **DNS resolution**, and **routing** for Azure VM.
+  - Used **TCP/IP analysis** to identify open ports targeted by attackers.
+  - Troubleshot network reachability and latency for remote RDP connections.
+
+---
+
+## 🧱 Virtualization: VMware, Hyper-V
+- **Purpose:** Local **simulation and testing** environments for comparison.
+- **Usage:**
+  - Used **VMware/Hyper-V** to build local test labs.
+  - Compared **on-prem attack surface** vs **cloud-exposed VMs**.
+  - Validated backup/recovery strategies before deploying on Azure.
+
+---
+
+## 🧰 IT Security & Compliance (Firewalls, IDS/IPS, Antivirus, Security Audits)
+- **Purpose:** Establish **layered security** around exposed cloud resources.
+- **Usage:**
+  - Implemented **Azure NSGs** (Firewall equivalent) to control inbound traffic.
+  - Enabled **Defender for Cloud** (IDS/IPS features) for threat detection.
+  - Reviewed **security recommendations** and compliance alerts.
+  - Simulated **vulnerability assessments** on exposed services.
+
+---
+
+## ⚙️ IT Process Automation (PowerShell, Python)
+- **Purpose:** Automate deployment, configuration, and security analysis.
+- **Usage:**
+  - Used **PowerShell** commands to:
+    - Create Azure VMs
+    - Open/close ports
+    - Query Defender alerts
+  - Demonstrated how **Python scripts** could automate log collection and attack analysis.
+
+---
+
+## 💾 Backup & Disaster Recovery Planning
+- **Purpose:** Protect critical data and maintain business continuity.
+- **Usage:**
+  - Configured **Azure Backup** for VM snapshots.
+  - Showed how frequent attacks reinforce need for **automated restore points**.
+  - Demonstrated **disaster recovery** via redeploying VMs from backups.
+
+---
+
+## 🧠 Summary
+
+This lab combines **cloud security**, **network engineering**, and **automation** to:
+- Deploy and expose a **Windows VM** in **Azure**  
+- Visualize **real-world attack attempts** via the **Attack Map**  
+- Strengthen understanding of **defensive measures**, **firewalls**, and **identity management**  
+- Practice **incident response** and **compliance** within a controlled testbed
+
+By leveraging these tools, learners gain **end-to-end visibility** from **infrastructure design** to **threat detection** and **response automation**.
+
+---
+
+
 
 ## 📖 Final Note
 
