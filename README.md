@@ -425,6 +425,143 @@ Accounts are enabled immediately.
 
 ---
 
+
+# 🧱 SafeLine WAF Home Lab — Summary README
+
+This repository contains a **complete cybersecurity home lab** demonstrating how to deploy and secure a vulnerable web application using **SafeLine Web Application Firewall (WAF)**.
+
+The project showcases how to:
+- Host a vulnerable web app (**DVWA**) on **Ubuntu Server** using a **LAMP stack**
+- Launch **SQL Injection attacks** from **Kali Linux**
+- Protect the application using **SafeLine WAF**
+- Configure advanced WAF features like **HTTP Flood Defense**, **Authentication Sign-In**, and **Custom Deny Rules**
+
+---
+
+## ⚙️ Project Components
+
+| Component      | Purpose                                      |
+|----------------|----------------------------------------------|
+| **VirtualBox** | Virtualization platform for running VMs       |
+| **Ubuntu Server** | Hosts the DVWA web app                     |
+| **Kali Linux** | Attack simulation and testing                 |
+| **DVWA**       | Vulnerable Web Application                   |
+| **SafeLine WAF** | Web Application Firewall protection layer   |
+| **LAMP Stack** | Backend environment (Apache, MySQL, PHP)     |
+
+---
+
+## 🚀 Setup Summary
+
+1. **Install VirtualBox** and create two VMs:
+   - **Ubuntu Server (22.04 LTS)**
+   - **Kali Linux**
+
+2. **Configure Ubuntu Server**:
+   - Install LAMP stack  
+   - Deploy **DVWA**
+   - Configure **MySQL** and **Apache** (port 8080)
+   - Add local DNS: `dvwa.local`
+
+3. **Generate SSL Certificate**:
+   ```bash
+   sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+   -keyout /etc/ssl/dvwa/dvwa.key -out /etc/ssl/dvwa/dvwa.crt
+
+## 🧪 Step 4: Test Security
+
+Use **Kali Linux** to simulate attacks and validate SafeLine WAF’s protection.
+
+### 🧠 SQL Injection Test
+1. Open a browser in **Kali Linux** and navigate to:
+https://dvwa-waf.local
+
+
+2. Log in to **DVWA**:
+Username: admin
+Password: password
+
+3. Set **Security Level** to **Low** in DVWA.
+4. Navigate to the **SQL Injection** module.
+5. Perform a sample injection in the input field:
+admin' OR '1'='1
+
+
+6. ✅ **Expected Result:**  
+- The **SafeLine WAF** detects and blocks the malicious SQLi attempt.  
+- The request is logged and denied access to the backend.
+
+7. 🔍 **Verification:**  
+- Check WAF logs in the SafeLine dashboard to confirm the block.  
+- You may see an alert or blocked request entry.
+
+---
+
+## 🔐 WAF Features Demonstrated
+
+| Feature | Description |
+|----------|-------------|
+| ✅ **SQL Injection Protection** | Detects and blocks SQLi attacks in real time. |
+| ✅ **HTTP Flood / DoS Defense** | Limits high-frequency requests to prevent denial of service. |
+| ✅ **Authentication Gateway** | Adds login verification before backend access. |
+| ✅ **IP Blocking (Custom Deny Rules)** | Allows administrators to manually block attacker IPs. |
+
+These features showcase SafeLine WAF’s ability to **detect**, **prevent**, and **log** web-based attacks while ensuring legitimate traffic is not disrupted.
+
+---
+
+## 🧠 Key Skills Learned
+
+Through this lab, you develop hands-on experience with:
+
+- 🧰 **Virtualization & Networking** — Configuring VMs with bridged adapters  
+- 🐧 **Linux Server Administration** — Managing Ubuntu and services  
+- 🌐 **Web Application Security** — Deploying and testing DVWA  
+- 🧱 **WAF Configuration & Management** — Installing and tuning SafeLine  
+- 🔐 **SSL/TLS Certificate Setup** — Enabling secure HTTPS traffic  
+- 💉 **SQL Injection Testing** — Launching and analyzing attacks  
+- 🌍 **DNS & Reverse Proxy Concepts** — Mapping local domains and traffic flow
+
+---
+
+## 📚 References
+
+- [🔗 SafeLine WAF Official Website](https://waf.chaitin.com)  
+- [🔗 DVWA GitHub Repository](https://github.com/digininja/DVWA)  
+- [🔗 VirtualBox Download Page](https://www.virtualbox.org/wiki/Downloads)  
+- [🎥 YouTube Tutorial Guide](https://youtu.be/N0dEC1nuWCQ)
+
+---
+
+## 🧠 Summary
+
+This lab demonstrates a **complete web application defense workflow**:
+
+1. Deploy a vulnerable web app (**DVWA**).  
+2. Launch real-world attacks using **Kali Linux**.  
+3. Protect and monitor the application using **SafeLine WAF**.
+
+By simulating **offensive and defensive** cybersecurity practices, learners gain a practical understanding of **how WAFs detect and mitigate common threats** such as **SQL Injection**, **DoS**, and **unauthorized access**.
+
+This project bridges the gap between **penetration testing** and **secure web infrastructure engineering**, providing valuable skills for **cybersecurity professionals**.
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+   
+
 <h2>👨‍💻 Network Design Projects with Cisco Packet Tracer & Visio:</h2>
 
 # 📌 Enterprise Network Design and Implementation (Packet Tracer Project)
